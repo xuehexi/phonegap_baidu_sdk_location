@@ -37,6 +37,7 @@
         
         <source-file src="src/android/BaiduLocation.java" target-dir="src/com/spout/phonegap/plugins/baidulocation" />   
         <source-file src="src/android/locSDK_4.0.jar" target-dir="libs" framework="true"/>      
-        <source-file src="src/android/liblocSDK4.so" target-dir="libs/armeabi" framework="true"/>   
+        <source-file src="src/android/liblocSDK4.so" target-dir="libs/armeabi" framework="true"/>
+        <source-file src="src/android/liblocSDK4.so" target-dir="libs/armeabi-v7a" framework="true"/>    
     </platform>         
 </plugin>
